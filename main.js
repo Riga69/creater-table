@@ -4,7 +4,7 @@ var cols,rows,isDraggedBetweenCells=!1,isMouseDown=!1,mouseDownCell,selectedRows
 
 function isInt(a){
 	return/^\d+$/.test(a)
-}
+};
 
 Array.indexOf||(Array.prototype.indexOf = function(a){
 	for(var e=0;e<this.length;e++)if(this[e]==a)
